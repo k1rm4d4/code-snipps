@@ -26,13 +26,16 @@ def get_term(n):
 		return get_term(n - 2) + get_term(n - 1)
 
 
-# Get User Input:
-user_input = int(input("Please Enter upper limit number for the Fibonacci Sequence:"))		
 
-# print("Entered upper limit: ", user_input)
+# Get User Input with prompt:
+# user_input = int(input("Please Enter upper limit number for the Fibonacci Sequence:"))
+
+# Get User Input without prompt:
+user_input = int(input())		
+
+
 
 print_sequence(user_input)
 
-# for i in range(user_input):
-# 	print(i, " ", get_term(i))
+
 
